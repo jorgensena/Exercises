@@ -13,7 +13,6 @@ fastest = 1000
 while time != -1:
     times.append(time)
 
-    fastest = 0
     if time < fastest:
         fastest = time
 
