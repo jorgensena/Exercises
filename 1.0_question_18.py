@@ -1,7 +1,8 @@
-""" Collect the times of a 200m race and find the fastest
+""" Output the numbers between the chosen values and their sum
 Created by Amy Jorgensen
-11/02/22
+06/02/22
 """
+
 
 times = []
 time = int(input("Enter a time for the 200m race (or '-1' to exit): "))
