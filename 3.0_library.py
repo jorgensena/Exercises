@@ -96,7 +96,7 @@ def lend_book():
     print()
     if user:  # only if user was found
         book = find_book()  # make sure the book exists
-        if book.available:  # and is abailable
+        if book.available:  # and is available
             confirm = input("Type 'Y' if you want to borrow this book: ")\
                 .upper()  # user confirms
             if confirm == "Y":
